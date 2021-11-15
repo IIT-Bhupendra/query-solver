@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amita&display=swap");
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(231, 231, 231);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.nav_head {
+  position: fixed !important;
+  top: 0;
+  font-weight: bolder !important;
+  width: 100% !important;
+  z-index: 9999;
+}
+
+.brand_title {
+  font-family: "Amita", cursive;
+}
+
+.JumBo {
+  margin-top: 12vh !important;
+}

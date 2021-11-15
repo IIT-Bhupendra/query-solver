@@ -1,0 +1,8 @@
+# Comprises of environment variables
+.env
+
+# Contains all php dependencies user can install with the help of composer
+vendor
+
+# Profile for the heroku
+Procfile
